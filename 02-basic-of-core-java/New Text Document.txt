@@ -1,0 +1,263 @@
+Basics of Core Java – Object-Oriented Programming Principles
+1️⃣ What is Core Java? (WHY First)
+🔹 Simple Definition
+
+Core Java is the fundamental part of Java programming that provides the basic concepts required to build applications using object-oriented principles.
+
+📌 Core Java includes:
+
+Object-Oriented Programming (OOP)
+
+Control Structures
+
+Classes & Objects
+
+Inheritance
+
+Exception Handling (basic)
+
+🔹 WHY Core Java for Android Development?
+
+Core Java is important because:
+
+📱 Android apps are Java / Kotlin based
+
+🧱 Android framework is fully object-oriented
+
+⚙️ Activities, Fragments, Views → all are classes
+
+🔄 Lifecycle methods use inheritance & polymorphism
+
+🧠 Strong Java basics = easy Android learning
+
+👉 That’s why Core Java is the foundation of Android development
+
+🔹 One-Line Interview Definition
+
+Core Java provides the basic building blocks of Java programming using object-oriented concepts to develop robust applications.
+
+2️⃣ Object-Oriented Programming (OOP)
+🔹 What is OOP?
+
+Object-Oriented Programming is a programming approach where software is designed using objects that represent real-world entities.
+
+📌 OOP helps in:
+
+Code reusability
+
+Security
+
+Easy maintenance
+
+Scalability
+
+3️⃣ Basic OOP Building Blocks
+🔹 Object
+
+An object is a real-world entity that has:
+
+State (variables)
+
+Behavior (methods)
+
+📌 Example:
+
+Student
+
+Mobile
+
+Button (Android)
+
+🔹 Class
+
+A class is a blueprint from which objects are created.
+
+class Student {
+    int rollNo;
+    String name;
+
+    void study() {
+        System.out.println("Student is studying");
+    }
+}
+
+
+📌 Android Example:
+
+Activity
+
+Fragment
+
+ViewModel
+
+4️⃣ Four Pillars of OOP (MOST IMPORTANT)
+🔐 4.1 Encapsulation
+🔹 Meaning
+
+Encapsulation means wrapping data and methods together and protecting data using access modifiers.
+
+class User {
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+
+📌 Android Use:
+
+Data security
+
+ViewModel & Repository pattern
+
+🎯 Benefit:
+Improves security and data control
+
+🧬 4.2 Inheritance
+🔹 Meaning
+
+Inheritance allows one class to acquire properties of another class.
+
+class Parent {
+    void show() {
+        System.out.println("Parent class");
+    }
+}
+
+class Child extends Parent {
+}
+
+
+📌 Android Example:
+
+MainActivity extends AppCompatActivity
+
+
+🎯 Benefit:
+Code reusability
+
+🔁 4.3 Polymorphism
+🔹 Meaning
+
+Polymorphism means one method, different behavior.
+
+class Shape {
+    void draw() {
+        System.out.println("Drawing shape");
+    }
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing circle");
+    }
+}
+
+
+📌 Android Use:
+
+Method overriding
+
+Event handling
+
+🎯 Benefit:
+Flexible and dynamic code
+
+🎭 4.4 Abstraction
+🔹 Meaning
+
+Abstraction hides implementation details and shows only essential features.
+
+interface Payment {
+    void pay();
+}
+
+class UPI implements Payment {
+    public void pay() {
+        System.out.println("UPI Payment");
+    }
+}
+
+
+📌 Android Use:
+
+Interfaces
+
+Architecture patterns (MVVM)
+
+🎯 Benefit:
+Simplifies complex systems
+
+5️⃣ Relationship Between Core Java & Android
+Core Java Concept	Android Usage
+Class	Activity, Fragment
+Object	Views, Intent
+Inheritance	AppCompatActivity
+Polymorphism	Method overriding
+Abstraction	Interfaces, APIs
+6️⃣ Advantages of OOP in Android
+
+✔ Code reusability
+
+✔ Better security
+
+✔ Easy maintenance
+
+✔ Scalable architecture
+
+✔ Clean & readable code
+
+7️⃣ Common Interview Traps 🚨
+🔴 Is Java fully object-oriented?
+
+❌ No (because of primitive data types)
+
+🔴 Can Android be developed without OOP?
+
+❌ No (Android framework is OOP-based)
+
+🔴 Which OOP concept is most used in Android?
+
+✔ Inheritance & Encapsulation
+
+8️⃣ Checkpoint Questions (During Lecture)
+
+What is Core Java?
+
+What is OOP?
+
+Difference between class and object
+
+Name four pillars of OOP
+
+🧪 Post-Lecture Questions (Assessment)
+
+Explain Object-Oriented Programming
+
+Describe four OOP principles
+
+Explain inheritance with Android example
+
+Difference between abstraction and encapsulation
+
+🎯 Mini Practice Task
+👉 Task:
+
+Create a class Employee:
+
+Private variables: id, name
+
+Public getters & setters
+
+Create child class Manager
+
+Override one method
+
+Mention which OOP principles are used.
+
+🧠 One-Line Interview Summary
