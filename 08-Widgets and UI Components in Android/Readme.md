@@ -112,3 +112,4 @@ Validate user input
 🚀 Conclusion
 
 Widgets like TextView, EditText, Button, and ImageView are essential for building interactive Android applications and handling user input effectively.
+Widgets like TextView, EditText, Button, and ImageView are essential for building interactive Android applications and handling user input effectively.
